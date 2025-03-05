@@ -61,7 +61,7 @@ export const ContactRequestColumns: ColumnDef<QRType>[] = [
     },
     {
         accessorKey: "refNO",
-        header: () => <div className="text-left">ref-No</div>,
+        header: () => <div className="text-left">Ref No</div>,
         cell: ({ row }) => (
             <div className="text-left text-[min(4vw,1rem)] leading-relaxed truncate">
                 {row.getValue("refNO")}
